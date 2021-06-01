@@ -1,0 +1,236 @@
+html, body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.swiper-container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#page1 {
+    background-color: #98ddca;
+    height: auto;
+    min-height: 100vh;
+}
+#page2 {
+    background-color: #ffaaa7;
+    height: auto;
+    min-height: 100vh;
+
+}
+
+#page3 {
+    background-color: #87a7b3;
+    height: auto;
+    min-height: 100vh;
+
+}
+
+#page4 {
+    background-color: #ffd3b4;
+    height: auto;
+    min-height: 100vh;
+
+}
+
+#page1-title {
+    width: 85%;
+    position: absolute;
+    top: 45%;
+    left: auto;
+    right: auto;
+    text-align: center;
+    color: white;
+    font-family: Saira,sans-serif;
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+}
+
+#social-container {
+    text-align: center;
+    margin-top: 15%;
+}
+
+h1 {
+    font-family: Saira,sans-serif;
+    font-size: 65px !important;
+    color: white;
+    font-feature-settings: "liga" 0;
+    font-weight: 700;
+}
+h3 {
+    font-family: Saira,sans-serif;
+    color: white;
+    font-feature-settings: "liga" 0;
+    font-weight: 500;
+}
+
+h5 {
+    font-family: Saira,sans-serif;
+    color: white;
+    font-feature-settings: "liga" 0;
+    font-weight: 300;
+}
+
+.social {
+    padding-top: 10px;
+    color: white !important;
+}
+
+.social-link {
+    color: #ff8d1c;
+}
+
+.active {
+    border-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 7px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+    cursor: pointer;
+}
+
+.nav-link {
+    font-family: Saira, sans-serif;
+    font-feature-settings: "liga" 0;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 700;
+    color: white !important;
+}
+
+p {
+    font-family: Saira, sans-serif;
+    font-feature-settings: "liga" 0;
+    font-size: 20px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 700;
+    color: white !important;
+}
+
+@media (max-width: 768px) {
+    #page1-title {
+        top: 25%;
+    }
+
+    .work {
+        width: 80% !important;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
+
+    .work-date {
+        clear: both !important;
+        float: left !important;
+    }
+
+    .line {
+        width: 80% !important;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .mobile-show {
+        display: none;
+    }
+    #skills {
+        margin-top: 10% !important;
+    }
+    #edu {
+        margin-top: 10vh !important;
+    }
+}
+
+.work {
+    margin-top: 5vh;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.work-title {
+    float: left;
+}
+.work-date {
+    float: right;
+}
+.work-des {
+    clear: both;
+}
+
+.line {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+    opacity: 1 !important;
+    height: 5px !important;
+}
+
+#skills {
+    margin-top: 3vh;
+}
+
+#edu {
+    margin-top: 3vh;
+}
+
+#linkedin:hover {
+    color: #2867B2;
+}
+
+#instagram:hover {
+    color: #833AB4;
+}
+
+#twitter:hover {
+    color: #1DA1F2;
+}
+
+#github:hover {
+    color: black;
+}
+
+.progress-bar {
+    font-family: Saira, sans-serif;
+    font-feature-settings: "liga" 0;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 700;
+    font-size: 14px !important;
+    background-color: #046582 !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    top: 50vh !important;
+}
