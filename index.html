@@ -54,26 +54,26 @@
                     <hr class="line">
                     <br>
                     <p>Ich spiele seit knapp vier Jahren Konzert- und E-Gitarre</p>
-                   <div id="Ergänzung">Seit mehreren Jahren spiele ich zudem klassische Gitarre in einer Musikschule </div>
+                   <div class="Ergänzung">Seit mehreren Jahren spiele ich zudem klassische Gitarre in einer Musikschule </div>
                    <hr class="line">
                    <br>
                  <p>Solo als auch in einer Band habe ich zahlreiche Erfahrungen mit Auftritten</p>
-                 <div id="Ergänzung">Hier ein Beispiel =></div>
+                 <div class="Ergänzung"><a id="sample" onclick="toLastPage()">Hier ein Beispiel</a></div>
                  <hr class="line">
                  <br>
                 <p>Die Art und Weise des Unterrichts passen wir auf deine Ziele an</p>
-                <div id="Ergänzung">Falls du noch kein konkretes Ziel hast, ist das auch kein Problem</div>
+                <div class="Ergänzung">Falls du noch kein konkretes Ziel hast, ist das auch kein Problem</div>
                 <hr class="line">
                 <br>
                 <p>Persönlich höre ich momentan gerne Polyphia, Linkin Park oder David Sylvian</p>
-                <div id="Ergänzung">um  ein paar Beispiele zu nennen</div>
+                <div class="Ergänzung">um  ein paar Beispiele zu nennen</div>
                     <br>
                 </div>
             </div>
         </div>
         <div class="swiper-slide" id="page3">
             <div class="container">
-                <div id="skills">
+                <div id="edu">
                 <h3>Hier siehst du worin ich schon erfahren bin und an welchen Punkten ich noch arbeite:</h3>
                 <br>
                 <div class="progress" style="height: 33px;">
@@ -93,7 +93,43 @@
         </div>
         <div class="swiper-slide" id="page4">
             <div id="social-container" class="container">
-               
+                <div class="container d-flex justify-content-center my-4 mb-5">
+
+                    <div id="mobile-box">
+                        <!-- Card -->
+                        <div class="card">
+
+                            <!-- Card image -->
+                            <div class="view">
+                                <img style="width: 45vh;" class="card-img-top" src="https://mdbootstrap.com/wp-content/uploads/2019/02/flam.jpg"
+                                     alt="Card image cap">
+                                <a href="https://bachataurban.com/" target="_blank">
+                                    <div class="mask gradient-card"></div>
+                                </a>
+                            </div>
+
+                            <!-- Card content -->
+                            <div class="card-body text-center">
+
+                                <h5 class="h5 font-weight-bold"><a style="color: #0d47a1; font-size: 20px" href="https://bachataurban.com/" target="_blank">Dj Flam</a></h5>
+                                <p class="mb-0">Urban Bachata remix</p>
+
+                                <audio id="music" preload="true">
+                                    <source src="https://bachataurban.com/download/2/Stefflon%20Don%20-%2016%20Shots%20(%20DJ%20Flam%20-%20Urban%20Bachata%20remix%20).mp3">
+                                </audio>
+                                <div id="audioplayer">
+                                    <i id="pButton" class="fas fa-play"></i>
+                                    <div id="timeline">
+                                        <div id="playhead"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Content -->
             </div>
         </div>
     </div>
@@ -104,6 +140,7 @@
 </div>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="js/slider.control.js"></script>
+<script src="js/audio.js"></script>
 
 </body>
 </html>

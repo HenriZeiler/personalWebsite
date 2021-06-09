@@ -16,6 +16,10 @@ const swiper = new Swiper('.con1', {
 
 swiper.on('slideChangeTransitionEnd', changeNavBar);
 
+function toLastPage() {
+    swiper.slideTo(3)
+}
+
 function changeNavBar() {
     var current = document.querySelector(".swiper-slide-active").id;
     document.querySelector(".active").classList.remove("active");
