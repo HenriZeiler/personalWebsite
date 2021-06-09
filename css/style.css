@@ -8,13 +8,27 @@ html, body {
     min-height: 100vh;
 }
 
+#Ergänzung {
+  
+    font-family: Saira, sans-serif;
+    font-feature-settings: "liga" 0;
+    font-size: 15px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 700;
+    color: white !important;
+}
 #page1 {
     background-color: #98ddca;
     height: auto;
     min-height: 100vh;
 }
 #page2 {
-    background-color: #ffaaa7;
+    background-color: #a849f5;
     height: auto;
     min-height: 100vh;
 
@@ -228,7 +242,7 @@ p {
     font-variant-numeric: normal;
     font-weight: 700;
     font-size: 14px !important;
-    background-color: #046582 !important;
+    background-color: #da7a2d !important;
 }
 
 .swiper-button-next, .swiper-button-prev {
