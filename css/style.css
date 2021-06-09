@@ -61,6 +61,10 @@ html, body {
     margin-left: 7.5%;
 }
 
+#headline3 {
+       text-align: center;
+}
+
 #social-container {
     text-align: center;
     margin-top: 15vh;
