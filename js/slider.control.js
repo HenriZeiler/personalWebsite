@@ -43,3 +43,10 @@ document.querySelector("#page3-nav").addEventListener("click", () => {
 document.querySelector("#page4-nav").addEventListener("click", () => {
     swiper.slideTo(3);
 });
+
+//force https
+if (location.hostname !== "localhost" && location.hostname !== "127.0.0.1" && location.protocol !== 'file:') {
+    if (location.protocol !== 'https:') {
+        location.replace(`https:${location.href.substring(location.protocol.length)}`);
+    }
+}
