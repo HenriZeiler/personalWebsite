@@ -91,6 +91,12 @@ h5 {
     font-weight: 300;
 }
 
+label {
+    float: left !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .social {
     padding-top: 10px;
     color: white !important;
