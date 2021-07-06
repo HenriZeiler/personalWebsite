@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
@@ -126,6 +126,9 @@
             </div>
             <div class="swiper-slide" id="page4">
                 <div id="social-container" class="container">
+                    <div id="nachos" class="alert alert-success d-none" role="alert">
+                        Vielen Dank für deine Nachricht!
+                    </div>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="container d-flex justify-content-center my-4 mb-5" style="margin-top: 0px !important">
@@ -167,21 +170,21 @@
                         </div>
 
                         <div class="col-md-6">
-                            <form>
+                            <form onsubmit="return sendMessage()">
                                 <div class="form-group">
                                     <label for="fullName">Vor- und Nachname</label>
                                     <input type="text" class="form-control" id="fullName"
-                                        placeholder="Max Mustermann">
+                                        placeholder="Max Mustermann" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleFormControlInput1">Email Addresse</label>
                                     <input type="email" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="name@example.com">
+                                        placeholder="name@example.com" required>
                                 </div>
                                 
                                 <div class="form-group">                                  
                                     <label for="exampleFormControlTextarea1">Deine Nachricht</label>
-                                    <textarea class="form-control" style="min-height:200px; max-height:200px" id="exampleFormControlTextarea1" rows="3"></textarea>                               
+                                    <textarea class="form-control" style="min-height:200px; max-height:200px" id="exampleFormControlTextarea1" rows="3" required></textarea>
                                 </div>
                                 <input class="btn btn-primary" style="margin-top: 10px; float: left" type="submit" value="Senden">
                             </form>

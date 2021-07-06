@@ -67,7 +67,7 @@ html, body {
 
 #social-container {
     text-align: center;
-    margin-top: 15vh;
+    margin-top: 3vh;
 }
 
 h1 {
@@ -188,6 +188,9 @@ p {
     }
     #edu {
         margin-top: 10vh !important;
+    }
+    #social-container {
+        margin-top: 15vh !important;
     }
 }
 
